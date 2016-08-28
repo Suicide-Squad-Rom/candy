@@ -47,7 +47,7 @@
            
    <remote  name="candy"
            fetch="https://github.com/Suicide-Squad-Rom"
-           revision="candy" /> 	            
+           revision="c6" /> 	            
 		   
 
    <!-- Candy Projects -->
