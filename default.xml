@@ -74,7 +74,7 @@
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="vm" groups="pdk-cw-fs,pdk-fs" />  
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="vm" />
   <project path="frameworks/opt/slim" name="CandyRoms/frameworks_opt_slim" remote="github" revision="c6" />
-   <project name="Cardinal-AOSP/frameworks_native" path="frameworks/native" remote="github" revision="crd6.0" />
+  <project name="Cardinal-AOSP/frameworks_native" path="frameworks/native" remote="github" revision="crd6.0" />
   <project path="frameworks/support" name="CandyRoms/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
   <project path="frameworks/opt/telephony" name="CandyRoms/frameworks_opt_telephony" remote="github" revision="c6" />
   <project path="hardware/broadcom/libbt" name="CandyRoms/hardware_broadcom_libbt" groups="pdk" remote="github" revision="c6" />
@@ -120,7 +120,7 @@
     <copyfile src="source-bringup.sh" dest="source-bringup.sh" />
   </project>
   <project path="system/bt" name="CandyRoms/system_bt" groups="pdk" remote="github" revision="c6" />
-  <project path="system/core" name="CandyRoms/system_core" remote="github" revision="c6" />
+  <project path="system/core" name="Suicide-Squad-Rom/system_core" remote="github" revision="c6" />
   <project path="system/extras" name="CandyRoms/system_extras" remote="github" revision="c6" />
   <project path="vendor/candy" name="CandyRoms/vendor_candy" remote="github" revision="c6" />
   
@@ -141,10 +141,12 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aospb" />
   <project path="external/android-visualizer" name="external_android-visualizer" remote="aospb" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="slim" />
-  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="slim" />
-  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="slim" />
+  <project path="external/ant-wireless/ant_service" name="DirtyUnicorns/android_external_ant-wireless_ant_service" remote="github" revision="m-caf" />
+  <project path="external/libnetfilter_conntrack" name="DirtyUnicorns/android_external_libnetfilter_conntrack" remote="github" revision="m-caf" />
+  <project path="external/libnfnetlink" name="DirtyUnicorns/android_external_libnfnetlink" remote="github" revision="m-caf" />
+  <project path="external/ant-wireless/antradio-library" name="DirtyUnicorns/android_external_ant-wireless_antradio-library" remote="github" revision="m-caf" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-13.0" />
-  <project path="external/connectivity" name="external_connectivity" remote="aospb" />
+  <project path="external/connectivity" name="DirtyUnicorns/android_external_connectivity" remote="github" revision="m-caf" />
   <project path="external/exfat" name="external_exfat" remote="aospb" />
   <project path="external/fuse" name="external_fuse" remote="aospb" />
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="aospb" />
@@ -170,7 +172,7 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="aospb" />
   <project path="system/media" name="system_media" remote="aospb" />
   <project path="system/netd" name="system_netd" remote="aospb" />
-  <project path="system/qcom" name="system_qcom" remote="aospb" />
+  <project path="system/qcom" name="DirtyUnicorns/android_system_qcom" remote="github" revision="m-caf" />
   <project path="system/vold" name="system_vold" remote="aospb" />
   <project path="vendor/qcom/opensource/display-frameworks" name="vendor_qcom_opensource_display-frameworks" remote="aospb" />
   <project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="aospb" />
